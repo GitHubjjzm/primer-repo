@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "420843968309",
+    "project_id": "botones-de-panico",
+    "storage_bucket": "botones-de-panico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420843968309:android:6bacac91a4aae656771e7c",
+        "android_client_info": {
+          "package_name": "com.c5durango.alertalsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420843968309-7cnrtbkucv76825obc0u1uunn28n2ij2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.c5durango.alertalsm",
+            "certificate_hash": "f96570ac931102c02e425d8b93e04d3f4ac3401a"
+          }
+        },
+        {
+          "client_id": "420843968309-o3378ugit636q159okrutlbftlg8fvsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI7hGFXR4X69yXARCAVmwWaH8H8EBZNLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420843968309-o3378ugit636q159okrutlbftlg8fvsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

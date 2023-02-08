@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.c5durango.alertalsm.Fragments.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    
+    <fragment
+        android:id="@+id/nav_reportes"
+        android:name="com.c5durango.alertalsm.Fragments.ReportesFragment"
+        android:label="@string/menu_reportes"
+        tools:layout="@layout/fragment_reportes" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.c5durango.alertalsm.Fragments.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+
+    <!-- <fragment
+        android:id="@+id/nav_config"
+        android:name="com.c5durango.alertalsm.Fragments.ConfiguracionFragment"
+        android:label="@string/menu_configuracion"
+        tools:layout="@layout/fragment_configuracion" />  -->
+
+    <fragment
+        android:id="@+id/nav_permisos"
+        android:name="com.c5durango.alertalsm.Fragments.PermisosFragment"
+        android:label="@string/menu_permisos"
+        tools:layout="@layout/fragment_permisos" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.c5durango.alertalsm.Fragments.InformacionFragment"
+        android:label="@string/menu_informacion"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>
